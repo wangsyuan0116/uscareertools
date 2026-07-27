@@ -20,20 +20,24 @@ Storyteller is a self-contained interview preparation and job search tracker. Op
  
 ### Features
  
-**Multi-user private workspaces**
+#### Multi-user private workspaces
+ 
 Sign in with any email address. Each email gets its own isolated workspace stored in the browser (no password, no server — this is meant for personal/local use, not shared authentication).
  
-**Dashboard**
+#### Dashboard
+ 
 - Summary stats: total applications, average resume fit score, stories marked "Ready," resume upload status.
 - A "Getting Started" guide with five simple steps matching the recommended workflow: upload resume → track applications → build your interview question bank → analyze job descriptions → prepare your cover letter.
 - Job pipeline overview: counts of applications at each stage (Applied, Phone, On-site, Offer, Rejected).
 - Recent applications timeline with fit score and current stage.
-**Resume**
+#### Resume
+ 
 - Upload a resume as `.txt`, `.pdf`, or Word `.docx` (parsed in-browser using PDF.js and Mammoth.js — nothing is uploaded to a server), or paste resume text directly.
 - A toast notification confirms successful upload (or shows an error if parsing fails).
 - Uploading or saving a new resume automatically recalculates the fit score for every tracked job.
 - Shows the last-updated timestamp.
-**Job Tracker**
+#### Job Tracker
+ 
 - Add a position with company, title, applied date, job posting URL, full job description, and a "dream company" flag.
 - Automatic fit score: a keyword-matching engine compares your resume against each job description across categories like data analytics, operations, project management, communication, tools, and business skills.
 - Stage tracking with one-click buttons: Applied, Phone, On-site, Offer, Rejected — all shown in a single row per job card.
@@ -42,19 +46,24 @@ Sign in with any email address. Each email gets its own isolated workspace store
 - Edit any position in place from the detail view — nothing is duplicated, the same entry is updated.
 - Download a generated cover letter (from your saved template) directly from each job card.
 - Summary stats: total applications, dream companies, average fit score, in-progress count, rejected count — laid out in a single row.
-**Interview Question Bank** (formerly "Stories")
+#### Interview Question Bank (formerly "Stories")
+ 
 - Build a library of behavioral interview stories using the STAR format (Situation, Action, Result).
 - Categorize each story (Behavioral, Data-Driven, Process Improvement) and track your confidence level (Drafting, Developing, Ready).
 - A practice counter lets you log how many times you've rehearsed each story.
-**JD Analysis**
+#### JD Analysis
+ 
 - Paste any job description (without adding it to your tracker) to instantly see your resume fit score, matched and missing skills, the full list of extracted JD keywords, and likely interview questions — useful for a quick check before deciding whether to apply.
-**Cover Letter**
+#### Cover Letter
+ 
 - Save one reusable template using `[COMPANY]` and `[POSITION]` placeholders.
 - Select any tracked job to generate a preview, copy it to the clipboard, or download it as a `.txt` file.
-**Bilingual interface (English / 中文)**
+#### Bilingual interface (English / 中文)
+ 
 - Full UI translation — every label, button, section heading, form field, and even the AI-generated interview questions are available in both English and Traditional Chinese.
 - The app always starts in English; switch languages anytime with the toggle in the top bar, and the active language stays in sync with what's on screen.
-**Other niceties**
+#### Other niceties
+ 
 - Dark mode toggle.
 - Fully responsive layout with a mobile hamburger menu for the sidebar navigation.
 - Every modal (add/edit job, job details, add story) can be closed by clicking outside of it, not just with a Close button.
@@ -88,20 +97,24 @@ Storyteller 是一個一體成型、完全在瀏覽器端運作的求職準備�
  
 ### 功能介紹
  
-**多使用者私密工作區**
+#### 多使用者私密工作區
+ 
 用任何電子郵件登入即可。每個電子郵件都會擁有自己獨立、儲存在瀏覽器裡的工作區（沒有密碼、沒有伺服器 —— 這是設計給個人本機使用，而非多人共用登入系統）。
  
-**儀表板**
+#### 儀表板
+ 
 - 總覽統計：總申請數、平均履歷匹配度、已標記為「已準備好」的故事數量、履歷上傳狀態。
 - 「新手指南」步驟卡片，依照建議流程列出五個步驟：上傳履歷 → 追蹤職位申請 → 建立面試題庫 → 分析職位描述 → 準備求職信。
 - 職位進度總覽：各階段（已申請、電話面試、現場面試、已獲聘、已拒絕）的申請數量。
 - 最近申請時間軸，顯示匹配分數與目前進度階段。
-**履歷**
+#### 履歷
+ 
 - 可上傳 `.txt`、`.pdf` 或 Word `.docx` 格式的履歷（全部在瀏覽器內用 PDF.js 與 Mammoth.js 解析，不會上傳到任何伺服器），或直接貼上履歷文字。
 - 上傳成功會跳出提示通知（若解析失敗則顯示錯誤提示）。
 - 上傳或儲存新履歷後，會自動重新計算所有已追蹤職位的匹配分數。
 - 顯示履歷最後更新時間。
-**職位追蹤**
+#### 職位追蹤
+ 
 - 新增職位時可填寫公司、職稱、申請日期、職缺連結、完整職位描述，並可標記為「理想公司」。
 - 自動匹配分數：透過關鍵字比對引擎，將你的履歷與各職位描述在數據分析、營運、專案管理、溝通協作、工具、商業分析等類別上進行比對。
 - 一鍵切換進度階段：已申請、電話面試、現場面試、已獲聘、已拒絕 —— 全部整齊排列在每張職位卡片的同一排。
@@ -110,19 +123,24 @@ Storyteller 是一個一體成型、完全在瀏覽器端運作的求職準備�
 - 可直接在詳情視窗中點擊編輯，修改後會更新同一筆資料，不會產生重複紀錄。
 - 可直接從職位卡片下載（依你儲存的範本）產生的求職信。
 - 總覽統計：總申請數、理想公司數、平均匹配分數、進行中數量、已拒絕數量 —— 全部排列在同一排。
-**面試題庫**（原「故事庫」）
+#### 面試題庫（原「故事庫」）
+ 
 - 以 STAR 架構（情境、行動、結果）建立行為面試故事庫。
 - 為每個故事分類（行為問題、數據導向、流程改善），並標記熟練程度（草稿中、準備中、已準備好）。
 - 練習次數計數器，記錄你演練過每個故事幾次。
-**JD 分析**
+#### JD 分析
+ 
 - 貼上任何職位描述（不會加入職位追蹤清單），即可立即看到履歷匹配分數、已具備與缺少的技能、完整的職缺關鍵字列表，以及可能的面試問題 —— 適合在決定是否申請前快速檢查。
-**求職信**
+#### 求職信
+ 
 - 儲存一份可重複使用的範本，使用 `[COMPANY]` 與 `[POSITION]` 作為佔位符。
 - 選擇任一已追蹤的職位即可產生預覽、複製到剪貼簿，或下載為 `.txt` 檔案。
-**中英雙語介面**
+#### 中英雙語介面
+ 
 - 完整介面翻譯 —— 所有標籤、按鈕、區塊標題、表單欄位，甚至連 AI 產生的面試問題都有中英文版本。
 - 每次開啟都預設為英文，可隨時透過畫面上方的語言切換按鈕切換，切換後的語言狀態會與畫面內容保持同步。
-**其他細節**
+#### 其他細節
+ 
 - 深色模式切換。
 - 完全響應式版面設計，手機上會出現漢堡選單以開關側邊導覽列。
 - 每個彈出視窗（新增／編輯職位、職位詳情、新增故事）都可以直接點擊視窗外的區域關閉，不一定要按下方的關閉按鈕。
