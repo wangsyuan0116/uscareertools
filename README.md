@@ -83,10 +83,6 @@ Sign in with any email address. Each email gets its own isolated workspace store
  
 All data (resume text, job applications, stories, cover letter template) is stored only in your browser's local storage, keyed to the email you sign in with. Nothing is transmitted to any server. Clearing your browser data or switching browsers/devices will not carry your data over.
  
-### License
- 
-Add your preferred license here (e.g., MIT).
- 
 ---
  
 ## 中文
